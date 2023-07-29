@@ -1,0 +1,5 @@
+.vscode
+drone/eye/actual_data
+drone/main/pi_package.zip
+drone/main/src/__pycache__
+drone/main/logs

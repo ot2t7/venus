@@ -1,0 +1,4 @@
+target
+out/images/*
+out/labels/*
+assets/groun*
