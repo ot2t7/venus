@@ -12,3 +12,7 @@ This guidance system should run on an on-board raspberry pi which is connected t
 * The type of POI is provided to the guidance system as a numerical id on the Altitude field of the **GUIDED_ENABLE** command. 
 * If the guidance system fails, the vehicle enters **RTL** mode. 
 * When the landing is successful, the next command in the mission is executed. **GUIDED_ENABLE should not be last command in the mission.**
+
+## Known Issues
+
+* When a landing is finished and the vehicle attempts to arm again, but fails arming, **the vehicle will proceed with the next mission item the next time it is manually armed.**
